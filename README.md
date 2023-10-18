@@ -1,6 +1,8 @@
 # Academia
 Um projeto para praticar Java Spring, utilizando Banco de Dados Postgres e aplicação upada na nuvem atráves do Railway.
 ## Diagrama de Classes
+
+```mermaid
 classDiagram
   class Aluno {
     +Id: Long
@@ -21,6 +23,7 @@ classDiagram
   }
 
   Aluno --|> Professor : professor
+```
 
 ## Link para a aplicação
 A aplicação está disponivel para testes no link: https://academia-production.up.railway.app/swagger-ui/index.html
